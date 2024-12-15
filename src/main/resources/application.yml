@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: MySpringBoot2Dbase
+  datasource:
+    url: jdbc:h2:/home/mosk6/MyProjects/java/MySpringBoot2Dbase/testdb/students
+  jpa:
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+
+server:
+  port:  8082
